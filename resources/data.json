@@ -1,5 +1,4 @@
-httpRequest authentication: 'jiracloud', customHeaders: [[maskValue: false, name: 'Content-Type', value: 'application/json'], [maskValue: false, name: 'Accept', value: 'application/json']], httpMode: 'POST', requestBody: '''{
-    "fields": {
+   "fields": {
        "project":
        {
           "key": "PRJ"
@@ -10,4 +9,4 @@ httpRequest authentication: 'jiracloud', customHeaders: [[maskValue: false, name
           "name": "Bug"
        }
    }
-}''', responseHandle: 'NONE', url: 'https://jira1320.atlassian.net'
+
