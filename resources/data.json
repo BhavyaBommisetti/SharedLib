@@ -1,4 +1,4 @@
-httpRequest authentication: 'jira', customHeaders: [[maskValue: false, name: 'Content-Type', value: 'application/json'], [maskValue: false, name: 'Accept', value: 'application/json']], httpMode: 'POST', requestBody: '''{
+httpRequest authentication: 'jiracloud', customHeaders: [["maskValue": false, name: "Content-Type", value: "application/json"], [maskValue: false, name: 'Accept', value: 'application/json']], httpMode: 'POST', requestBody: '''{
     "fields": {
        "project":
        {
