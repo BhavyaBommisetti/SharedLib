@@ -1,12 +1,8 @@
-   "fields": {
-       "project":
-       {
-          "key": "PRJ"
-       },
-       "summary": "this is summary 1",
-       "description": "this is description",
-       "issuetype": {
-          "name": "Bug"
-       }
-   }
+  DefaultHttpClient client = new DefaultHttpClient();
+			
+HttpGet getRequest = new HttpGet(url + "rest/auth/latest/session");
+getRequest.addHeader("Authorization", "Basic " + userToken);
+getRequest.addHeader("accept", "application/json");
+HttpResponse getResponse = client.execute(getRequest);
 
+HttpPost postRequest = new HttpPost(http://jira1320.atlassian.net);
